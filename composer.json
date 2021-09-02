@@ -1,0 +1,14 @@
+{
+    "name": "ochui/voice-ivr",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ochui Princewill",
+            "email": "ochuiprincewill411@gmail.com"
+        }
+    ],
+    "require": {
+        "signalwire/signalwire": "^2.3"
+    }
+}
