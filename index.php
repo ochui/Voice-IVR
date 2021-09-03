@@ -9,7 +9,7 @@ header( 'Content-Type: application/xml' );
 $laml = new VoiceResponse;
 
 $gather = $laml->gather( array(
-    'action' => '/ivr.php',
+    'action' => 'ivr.php',
     'numDigits' => 1,
     'timeout' => 5 // wait for 5 seconds
 ) );

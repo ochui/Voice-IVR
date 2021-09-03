@@ -12,9 +12,9 @@ $digits = $_POST['Digits'];
 
 switch ( $digits ) {
     case 1:
-        $agent_number = '';
-        $dial = $laml->dial( '', array( 'action' => '/voicemail.php', 'answerOnBridge' => true ) );
-        $dial->number( $agent_number, array( 'url' => '/screen.php' ) );
+        $agent_number = '+16192274016';
+        $dial = $laml->dial( '', array( 'action' => 'voicemail.php', 'answerOnBridge' => true ) );
+        $dial->number( $agent_number, array( 'url' => 'screen.php' ) );
         echo $laml;
         break;
 
